@@ -9,7 +9,7 @@
         <item name="colorPrimary">@color/lightPrimaryColor</item>
         <item name="colorPrimaryDark">@color/primaryColorDark</item>
         <item name="android:colorBackground">@color/lightPrimaryColor</item>
-        <item name="android:fontFamily">@font/ubuntu</item>
+        <!-- <item name="android:fontFamily">@font/ubuntu</item> -->
     </style>
 
     <style name="AppThemeDark" parent="@style/Theme.AppCompat.NoActionBar">
@@ -20,7 +20,7 @@
         <item name="colorPrimaryDark">@color/darkPrimaryColor</item>
         <item name="android:colorBackground">@color/darkPrimaryColor</item>
         <item name="android:colorForeground">@color/darkAccentColor</item>
-        <item name="android:fontFamily">@font/ubuntu</item>
+        <!-- <item name="android:fontFamily">@font/ubuntu</item> -->
     </style>
 
     <style name="AppGreyTheme" parent="AppThemeDark">
