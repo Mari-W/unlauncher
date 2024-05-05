@@ -112,7 +112,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/margin_sides"
-            android:layout_marginTop="@dimen/margin_top_large"
+            android:layout_marginTop="@dimen/margin_top_small"
             android:layout_marginEnd="@dimen/margin_sides"
             app:visibilityMode="ignore"
             app:layout_constraintEnd_toEndOf="parent"
@@ -147,13 +147,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="0px"
-            android:alpha="0"
+            android:alpha="-1"
             app:visibilityMode="ignore"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toTopOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintBottom_toTopOf="parent" />
         <Constraint
             android:id="@+id/home_fragment_bin_time"
             android:layout_width="wrap_content"
@@ -225,7 +224,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/margin_sides"
-            android:layout_marginTop="@dimen/margin_top_large"
+            android:layout_marginTop="@dimen/margin_top_small"
             android:layout_marginEnd="@dimen/margin_sides_small"
             app:visibilityMode="ignore"
             app:layout_constraintEnd_toEndOf="parent"

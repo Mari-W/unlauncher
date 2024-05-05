@@ -24,7 +24,7 @@ abstract class ClockView(context: Context, attrs: AttributeSet) : View(context, 
         return paint
     }
 
-    fun updateClock() {
+    open fun updateClock() {
         requestLayout()
         invalidate()
     }
